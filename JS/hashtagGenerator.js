@@ -1,3 +1,5 @@
+//Exercicio: https://www.codewars.com/kata/52449b062fb80683ec000024
+
 const generateHashTags = (string) => {
     let stringTrimAux = string.replace(/\s/g, '')
     if(stringTrimAux && stringTrimAux.length < 140 && string != ' '){
